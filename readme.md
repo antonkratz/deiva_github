@@ -16,7 +16,7 @@ DEIVA is written in R using Shiny, DT and ggplot2.
 ## DEIVA meets user expectations
 The interface is self-explanatory and should be usable by anyone accustomed to a contemporary web app. 
 
-Deploying a DESeq2 web app however requires basic knowledge of R (which can be taken for granted because the content provider already has used R to work with DESeq2 in the first place), and a basic understanding of installing the Shiny server.
+Deploying a DEIVA web app however requires basic knowledge of R (which can be taken for granted because the content provider already has used R to work with DESeq2 in the first place), and a basic understanding of installing the Shiny server.
 
 ## Expanding DEIVA
 The code provided here works out of the box with the example given. But DEIVA can easily be expanded and modified to your own project. In particular the input data file can be augmented by more columns encoding gene features of interest, and these features can be rendered in different styles in the plot. 
@@ -53,7 +53,7 @@ The DESeq2 output is augmented by one column: symbol. This contains a gene symbo
 
 Example for a DEIVA input file:
 
-|	|symbol	|baseMean	|log2FoldChange		|lfcSE		|stat		|pvalue		|padj|
+|feature	|symbol	|baseMean	|log2FoldChange		|lfcSE		|stat		|pvalue		|padj|
 |---	|---	|---		|---			|---		|---		|---		|--- |
 |chr2\_246405441\_246405521\_+	| Grid|1.64173845899039|0.899050240043084|4.76263324936837|0.188771671671825|0.850271775363256|0.925548049366256|
 |chr12\_54086426\_54086466\_+	| Pcp2|5.30160933550825|1.61745325417192|4.82390235826869|0.335299749879769|0.737398982387807|0.864181693747462|
