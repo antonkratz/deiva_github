@@ -1,0 +1,3 @@
+DESeq2, bound membrane vs bound cytoplasm	tsv/DESeq2.bmemb_vs_bcyto.tsv
+DESeq2, all bound vs all unbound	tsv/DESeq2.bound_vs_unbound.tsv
+
