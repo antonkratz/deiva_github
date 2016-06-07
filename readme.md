@@ -1,3 +1,5 @@
+![alt text](_-_2016-06-07_13.23.06.png "screenshot")
+
 # DEIVA (Shiny version): Interactive Visual Analysis of DESeq2 differential gene expression test results 
 
 ## Interactive exploration of gene expression tests made easy
@@ -81,4 +83,10 @@ Put the data files into the appropriate location on the server (have a look at u
 Put server.R and ui.R into a directory ~/ShinyApps/deseq2.
 
 Tested with R version 3.2.2 (2015-08-14) -- "Fire Safety", Platform: x86_64-pc-linux-gnu (64-bit).
+
+## Super easy quick deployment with runGitHub!
+In R/RStudio run these two lines, it will download and start DEIVA:
+library(shiny)
+runGitHub("antonkratz/deiva_github", "anton.kratz@gmail.com")
+
 
