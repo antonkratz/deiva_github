@@ -86,7 +86,9 @@ Tested with R version 3.2.2 (2015-08-14) -- "Fire Safety", Platform: x86_64-pc-l
 
 ## Super easy quick deployment with runGitHub!
 In R/RStudio run these two lines, it will download and start DEIVA:
-```library(shiny)
+```
+library(shiny)
+
 runGitHub("antonkratz/deiva_github", "anton.kratz@gmail.com")
 ```
 
